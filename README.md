@@ -3,9 +3,13 @@ sara
 
 RHEL6.x/CentOS 6.x RPM:
 
-![Download](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-10.x86_64.rpm?raw=true "sara download")
+RPM
 
-![GPG-KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY "my gpg key")
+https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-10.x86_64.rpm?raw=true
+
+GPG-KEY
+
+https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY
 
 SARA - Linux SAR Analyzer
 
