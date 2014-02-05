@@ -21,7 +21,9 @@ Features:
   * Relies on:
 
      a) sar, http://sebastien.godard.pagesperso-orange.fr
+
      b) gnuplot, http://www.gnuplot.info
+
      c) imagemagick, http://www.imagemagick.org
      
 
