@@ -13,7 +13,7 @@ Features:
   * 100% non-interactive
   * Customizable
   * Supports all SAR 9.x tests
-  * Compatible with sar 9.x and 10.x
+  * Compatible with sar 9.x and 10.x data files (sa1/sadc)
   * Relies on:
 
      a) sar, http://sebastien.godard.pagesperso-orange.fr
