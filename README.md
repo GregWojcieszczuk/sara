@@ -40,4 +40,4 @@ TODO LIST:
     * Verify if that program works correctly on: Latest Fedora, SLES, SLED
     * Build DEB package for Ubuntu (13.10, 12.0.4 LTS) and latest Debian
 
-Report bugs to: greg '''<at>''' unixos.org
+Report bugs to: greg '''at''' unixos.org
