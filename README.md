@@ -16,9 +16,9 @@ Features:
   * Compatible with sar 9.x and 10.x
   * Relies on:
 
-     sar, http://sebastien.godard.pagesperso-orange.fr/
-     gnuplot, http://www.gnuplot.info/
-     imagemagick, http://www.imagemagick.org/
+     a) sar, http://sebastien.godard.pagesperso-orange.fr
+     b) gnuplot, http://www.gnuplot.info
+     c) imagemagick, http://www.imagemagick.org
 
   * Does not require sar, gnuplot and imagemagick to be installed (bundles all required packages/libs)
 
