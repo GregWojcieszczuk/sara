@@ -1,6 +1,7 @@
 sara
 ====
 
+RHEL6.x/CentOS 6.x RPM:
 Download: https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-10.x86_64.rpm?raw=true
 
 SARA - Linux SAR Analyzer
