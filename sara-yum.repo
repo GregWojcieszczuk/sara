@@ -1,0 +1,5 @@
+[sara]
+name=SARA
+baseurl=https://github.com/GregWojcieszczuk/sara/yum-repo
+gpgcheck=1
+gpgkey=https://github.com/GregWojcieszczuk/sara/GREGW-GPG-KEY
