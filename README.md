@@ -58,7 +58,7 @@ Do not forget to make processSA executable:
     chmod 755 /var/log/sa/processSA
 
 
-    EXAMPLES:
+EXAMPLES:
     
     /opt/sara/sara -s /var/log/sa/sa05 -t 00:00:00-02:09:58 -o /tmp/sartest
 
