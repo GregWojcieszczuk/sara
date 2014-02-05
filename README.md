@@ -32,6 +32,31 @@ To get list of available options and usage syntax, run:
 
 $ /opt/sara/sara
 
+To get very granular sar performance data from your system you can modify default crontab job:
+
+*/1 * * * * root /usr/lib64/sa/sa1 -S XALL 5 12
+
+If you plan to use that tool, you can probably comment out this line:
+
+#53 23 * * * root /usr/lib64/sa/sa2 -A
+
+Sysstat data with 5 sec sampling interval may create ~350-400MiB sa files (/var/log/sa).
+
+In order to avoid storing lots of very large files, you can add the following crontab job:
+
+42 00 * * * root /var/log/sa/processSA
+
+# Content of processSA script
+
+#!/bin/bash
+
+gzip /var/log/sa/sa$(date +%d -d '1 day ago')
+
+
+Don't forget to make processSA executable:
+
+chmod 755 /var/log/sa/processSA
+
 
     EXAMPLES:
     
