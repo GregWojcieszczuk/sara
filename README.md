@@ -34,11 +34,11 @@ $ /opt/sara/sara
 
 To get very granular sar performance data from your system you can modify default crontab job:
 
-*/1 * * * * root /usr/lib64/sa/sa1 -S XALL 5 12
+```*/1 * * * * root /usr/lib64/sa/sa1 -S XALL 5 12
 
 If you plan to use that tool, you can probably comment out this line:
 
-#53 23 * * * root /usr/lib64/sa/sa2 -A
+```#53 23 * * * root /usr/lib64/sa/sa2 -A
 
 Sysstat data with 5 sec sampling interval may create ~350-400MiB sa files (/var/log/sa).
 
