@@ -4,7 +4,7 @@ sara
 SARA - Linux SAR Analyzer
 
 SARA is the tool that helps visualizing SAR (System Activity Reporter) logs.
-This tools create PDF/PNG report based on data contained in sa (binary) file.
+This tool creates PDF/PNG report based on data contained in sa (binary) file.
 
 Features:
   * Creating PDF report (multiple-page single doc)
