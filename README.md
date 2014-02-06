@@ -24,7 +24,7 @@ Features:
   * Compatible with sar 9.x and 10.x data files (sa1/sadc)
   * Relies on:
 
-     a) sar, http://sebastien.godard.pagesperso-orange.fr
+     a) sysstat, http://sebastien.godard.pagesperso-orange.fr
 
      b) gnuplot, http://www.gnuplot.info
 
