@@ -1,13 +1,11 @@
 sara
 ====
 
-RHEL6.x/CentOS 6.x/OpenSUSE 13.1 (RPM, 64-bit only)
+Only 64-bit builds
 
-[Download latest version](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-12.el6.x86_64.rpm?raw=true)
+[RHEL6/CentOS6/OpenSUSE13.1 download](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-12.el6.x86_64.rpm?raw=true)
 
-Fedora 20
-
-[Download latest version](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-12.x86_64.rpm?raw=true)
+[Fedora 20 download](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-12.x86_64.rpm?raw=true)
 
 
 [GPG KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY)
