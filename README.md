@@ -52,6 +52,42 @@ Installation:
 To get list of available options and usage syntax, run:
 
     /opt/sara/sara
+    SYNTAX:
+
+    /opt/sara/sara [options]
+
+    Options:
+    -s <path>
+         Specify path to binary SA file (mandatory)
+
+    -o <path>
+         Specify path to output directory (mandatory)
+
+    -t HH:MM:SS-HH:MM:SS
+         Define time range for report (optional). 
+         If not defined, display report for all available data in SA file.
+   
+    -c <path>
+         Path to config file (optional). Default location: /opt/sara/etc/reports.pref
+
+    -r ipdf|pdf|png
+        Specify type of output report.
+        Default: pdf
+
+        ipdf - generate individual (for every sar test) pdf files in directory defined with "-o" option
+        pdf  - generate single pdf file with all data
+        png  - generate individual PNG files for every sar test
+
+    -h|-?
+         Display this help
+
+    EXAMPLES:
+    
+    /opt/sara/sara -s /var/log/sa/sa06 -t 00:00:00-12:28:03 -o /tmp/sartest
+
+    /opt/sara/sara -s /var/log/sa/sa06 -o /tmp/sartest
+
+
 
 To get very granular sar performance data from your system you can modify default crontab job:
 
@@ -78,12 +114,6 @@ Do not forget to make processSA executable:
 
     chmod 755 /var/log/sa/processSA
 
-
-Examples:
-    
-    /opt/sara/sara -s /var/log/sa/sa05 -t 00:00:00-02:09:58 -o /tmp/sartest
-
-    /opt/sara/sara -s /var/log/sa/sa05 -o /tmp/sartest
 
 TODO LIST:
 
