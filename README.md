@@ -5,7 +5,7 @@ RHEL6.x/CentOS 6.x/OpenSUSE 13.1
 
 RPM (only 64-bit)
 
-https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-10.x86_64.rpm?raw=true
+https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-11.x86_64.rpm?raw=true
 
 GPG-KEY
 
