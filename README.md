@@ -7,8 +7,6 @@ RPM (only 64-bit)
 
 [Download latest version](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-11.x86_64.rpm?raw=true)
 
-GPG-KEY
-
 [GPG KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY)
 
 SARA - Linux SAR Analyzer
