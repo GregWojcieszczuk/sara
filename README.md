@@ -5,11 +5,11 @@ RHEL6.x/CentOS 6.x/OpenSUSE 13.1
 
 RPM (only 64-bit)
 
-https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-11.x86_64.rpm?raw=true
+[Download latest version](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-11.x86_64.rpm?raw=true)
 
 GPG-KEY
 
-https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY
+[GPG KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY)
 
 SARA - Linux SAR Analyzer
 
