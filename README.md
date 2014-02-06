@@ -5,6 +5,11 @@ RHEL6.x/CentOS 6.x/OpenSUSE 13.1 (RPM, 64-bit only)
 
 [Download latest version](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-12.el6.x86_64.rpm?raw=true)
 
+Fedora 20
+
+[Download latest version](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-12.x86_64.rpm?raw=true)
+
+
 [GPG KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY)
 
 SARA - Linux SAR Analyzer
@@ -41,9 +46,13 @@ Features:
 
 Installation:
 
-    On CentOS/RHEL 6.x
+    On CentOS 6.x/RHEL 6.x
 
     yum install sara-1.0-12.el6.x86_64.rpm
+
+    On Fedora 20
+
+    yum install sara-1.0-12.x86_64.rpm
 
     On OpenSUSE 13.1
 
@@ -117,7 +126,7 @@ Do not forget to make processSA executable:
 
 TODO LIST:
 
-    * Verify if that program works correctly on: Fedora 19 (RHEL7), SLES, SLED
+    * Verify if that program works correctly on: RHEL7 beta, SLES, SLED
     * Build DEB package for Ubuntu (13.10, 12.0.4 LTS) and latest Debian
 
 Report bugs to: saraproject '''at''' unixos.org
