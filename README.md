@@ -1,9 +1,7 @@
 sara
 ====
 
-RHEL6.x/CentOS 6.x/OpenSUSE 13.1
-
-RPM (only 64-bit)
+RHEL6.x/CentOS 6.x/OpenSUSE 13.1 (RPM, 64-bit only)
 
 [Download latest version](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-11.x86_64.rpm?raw=true)
 
