@@ -3,7 +3,7 @@ sara
 
 RHEL6.x/CentOS 6.x/OpenSUSE 13.1 (RPM, 64-bit only)
 
-[Download latest version](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-11.x86_64.rpm?raw=true)
+[Download latest version](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-12.el6.x86_64.rpm?raw=true)
 
 [GPG KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY)
 
@@ -25,7 +25,7 @@ Features:
   * Creating PNG files covering individual data sections (e.g. disk activity, network activity, etc)
   * 100% non-interactive
   * Customizable
-  * Supports all SAR 9.x tests
+  * Supports all SAR 9.0.x tests
   * Compatible with sar 9.0.x, 10.0.x 10.2.x data files (sa1/sadc); only stable sysstat revisions
   * Relies on:
 
@@ -43,11 +43,11 @@ Installation:
 
     On CentOS/RHEL 6.x
 
-    yum install sara-1.0-11.x86_64.rpm
+    yum install sara-1.0-12.el6.x86_64.rpm
 
     On OpenSUSE 13.1
 
-    zypper install ./sara-1.0-11.x86_64.rpm
+    zypper install ./sara-1.0-12.el6.x86_64.rpm
 
 To get list of available options and usage syntax, run:
 
