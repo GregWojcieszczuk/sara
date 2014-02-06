@@ -1,9 +1,9 @@
 sara
 ====
 
-RHEL6.x/CentOS 6.x RPM:
+RHEL6.x/CentOS 6.x/OpenSUSE 13.1
 
-RPM
+RPM (only 64-bit)
 
 https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-10.x86_64.rpm?raw=true
 
@@ -33,7 +33,7 @@ Features:
      c) imagemagick, http://www.imagemagick.org
      
 
-  * Does not require sar, gnuplot and imagemagick to be installed (bundles all required packages/libs)
+  * Does not require sar, gnuplot and imagemagick to be installed
 
 
 To get list of available options and usage syntax, run:
