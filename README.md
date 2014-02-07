@@ -16,6 +16,7 @@ SARA is the tool that helps visualizing SAR (System Activity Reporter) logs.
 This tool creates PDF/PNG report based on data contained in sa (binary) file.
 
 [Sample PDF report generated on CentOS 6.5 (physical system)](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/srv3.unixos.org-sa26-REPORT.pdf)
+
 [Sample PDF report generated on OpenSUSE 13.1 (virtual machine)](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/linux-y2xn-sa05-REPORT.pdf)
 
 [Sample PDF report generated on CentOS 6.5 (virtual machine)](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/linux-y2xn-sa05-REPORT.pdf)
