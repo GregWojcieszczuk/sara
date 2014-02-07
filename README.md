@@ -114,7 +114,12 @@ Content of processSA script
 
     #!/bin/bash
 
-    gzip /var/log/sa/sa$(date +%d -d '1 day ago')
+    dirprefix="/var/log/sa"
+    Oldsafile="$dirprefix/sa$(date +%d -d '1 day ago')"
+    Newsafile="$dirprefix/sa-$(date +%Y-%m-%d -d '1 day ago')"
+    mv $Oldsafile $Newsafile
+    gzip "$Newsafile"
+
 
 
 Do not forget to make processSA executable:
