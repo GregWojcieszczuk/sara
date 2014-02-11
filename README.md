@@ -12,7 +12,7 @@ Only 64-bit builds
 
 [GPG KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY)
 
-SARA - Linux SAR Analyzer
+**SARA - Linux SAR Analyzer**
 
 SARA is the tool that helps visualizing SAR (System Activity Reporter) logs.
 This tool creates PDF/PNG report based on data contained in sa (binary) file.
@@ -28,7 +28,7 @@ This tool creates PDF/PNG report based on data contained in sa (binary) file.
 Notice that sara can be installed on any supported OS. 
 It can graph/analyze sysstat performance data generated on any Linux distro that utilizes systat 9.x or higher.
 
-Features:
+**Features**
   * Creating PDF report (multiple-page single doc); with bookmarks for each section
   * Creating report for specified period of time (within single day)
   * Creating PNG files covering individual data sections (e.g. disk activity, network activity, etc)
@@ -46,13 +46,13 @@ Features:
      
   * Does not require sar, gnuplot and imagemagick to be installed
 
-Known issues:
-   Adobe PDF reader (windows version only) doesn't display colors. All graphs are in grayscale.
+**Known issues**
+   **Adobe PDF reader (windows version only) doesn't display colors. All graphs are in grayscale.**
 
-   All other PDF readers (like Foxit PDF reader), evince, chrome built-in PDF reader, etc don't exhibit this problem.
+   **All other PDF readers (like Foxit PDF reader), evince, chrome built-in PDF reader, etc don't exhibit this problem.**
 
 
-Installation:
+**Installation**
 
     On CentOS 6.x/RHEL 6.x
 
@@ -137,7 +137,7 @@ Do not forget to make processSA executable:
     chmod 755 /var/log/sa/processSA
 
 
-TODO LIST:
+**TODO LIST**
 
     * Verify if that program works correctly on: RHEL7 beta, SLES, SLED
     * Build DEB package for Ubuntu (13.10, 12.0.4 LTS) and latest Debian
