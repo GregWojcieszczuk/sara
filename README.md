@@ -47,9 +47,10 @@ It can graph/analyze sysstat performance data generated on any Linux distro that
   * Does not require sar, gnuplot and imagemagick to be installed
 
 **Known issues**
-   **Adobe PDF reader (windows version only) doesn't display colors. All graphs are in grayscale.**
 
-   **All other PDF readers (like Foxit PDF reader), evince, chrome built-in PDF reader, etc don't exhibit this problem.**
+   Adobe PDF reader (windows version only) doesn't display colors. All graphs are in grayscale.
+
+   All other PDF readers (like Foxit PDF reader), evince, chrome built-in PDF reader, etc don't exhibit this problem.
 
 
 **Installation**
