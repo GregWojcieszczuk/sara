@@ -4,7 +4,7 @@
 SARA is the tool that helps visualizing SAR (System Activity Reporter) logs.
 This tool creates PDF/PNG report based on data contained in sa (binary) file.
 
-Only 64-bit builds
+**Downloads**(Only 64-bit builds)
 
 [RHEL6/CentOS6 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/rhel6/sara-1.0-13.el6.x86_64.rpm)
 
@@ -12,9 +12,11 @@ Only 64-bit builds
 
 [Fedora 20 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/f20/sara-1.0-13.x86_64.rpm)
 
+**GPG KEY**
 
 [GPG KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY)
 
+**SAMPLES**
 
 [Sample report 1](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/srv3.unixos.org-sa26-REPORT.pdf)
 
