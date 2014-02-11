@@ -38,19 +38,18 @@ Features:
   * Compatible with sar 9.0.x, 10.0.x 10.2.x data files (sa1/sadc); only stable sysstat revisions
   * Relies on:
 
-Known issues:
-   Adobe PDF reader (windows version only) doesn't display colors. All graphs are in grayscale.
-
-   All other PDF readers (like Foxit PDF reader), evince, chrome built-in PDF reader, etc don't exhibit this problem.
-
      a) sysstat, http://sebastien.godard.pagesperso-orange.fr
 
      b) gnuplot, http://www.gnuplot.info
 
      c) imagemagick, http://www.imagemagick.org
      
-
   * Does not require sar, gnuplot and imagemagick to be installed
+
+Known issues:
+   Adobe PDF reader (windows version only) doesn't display colors. All graphs are in grayscale.
+
+   All other PDF readers (like Foxit PDF reader), evince, chrome built-in PDF reader, etc don't exhibit this problem.
 
 
 Installation:
