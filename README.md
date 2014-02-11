@@ -3,9 +3,9 @@ sara
 
 Only 64-bit builds
 
-[RHEL6/CentOS6/OpenSUSE13.1 download](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-12.el6.x86_64.rpm?raw=true)
+[RHEL6/CentOS6/OpenSUSE13.1 download](https://github.com/GregWojcieszczuk/sara/blob/master/rpms/rhel6/rpms/rhel6/sara-1.0-13.el6.x86_64.rpm?raw=true)
 
-[Fedora 20 download](https://github.com/GregWojcieszczuk/sara/blob/master/sara-1.0-12.x86_64.rpm?raw=true)
+[Fedora 20 download](https://github.com/GregWojcieszczuk/sara/blob/master/rpms/f20/sara-1.0-13.x86_64.rpm?raw=true)
 
 
 [GPG KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY)
@@ -15,17 +15,19 @@ SARA - Linux SAR Analyzer
 SARA is the tool that helps visualizing SAR (System Activity Reporter) logs.
 This tool creates PDF/PNG report based on data contained in sa (binary) file.
 
-[Sample PDF report generated on CentOS 6.5 (physical system)](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/srv3.unixos.org-sa26-REPORT.pdf.zip)
+[Sample report 1](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/srv3.unixos.org-sa26-REPORT.pdf)
 
-[Sample PDF report generated on OpenSUSE 13.1 (virtual machine)](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/linux-y2xn-sa05-REPORT.pdf)
+[Sample report 2](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/linux-y2xn-sa10-REPORT.pdf)
 
-[Sample PDF report generated on CentOS 6.5 (virtual machine)](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/linux-y2xn-sa05-REPORT.pdf)
+[Sample report 3](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/buildhost1.linuxlab.local-sadc-9.0.6-data.dat-REPORT.pdf)
+
+[Sample report 4](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/buildhost1.linuxlab.local-sa10-REPORT.pdf)
 
 Notice that sara can be installed on any supported OS. 
 It can graph/analyze sysstat performance data generated on any Linux distro that utilizes systat 9.x or higher.
 
 Features:
-  * Creating PDF report (multiple-page single doc)
+  * Creating PDF report (multiple-page single doc); with bookmarks for each section
   * Creating report for specified period of time (within single day)
   * Creating PNG files covering individual data sections (e.g. disk activity, network activity, etc)
   * 100% non-interactive
@@ -33,6 +35,11 @@ Features:
   * Supports all SAR 9.0.x tests
   * Compatible with sar 9.0.x, 10.0.x 10.2.x data files (sa1/sadc); only stable sysstat revisions
   * Relies on:
+
+Known issues:
+   Adobe PDF reader (windows version only) doesn't display colors. All graphs are in grayscale.
+
+   All other PDF readers (like Foxit PDF reader), evince, chrome built-in PDF reader, etc don't exhibit this problem.
 
      a) sysstat, http://sebastien.godard.pagesperso-orange.fr
 
@@ -48,15 +55,15 @@ Installation:
 
     On CentOS 6.x/RHEL 6.x
 
-    yum install sara-1.0-12.el6.x86_64.rpm
+    yum install sara-1.0-13.el6.x86_64.rpm
 
     On Fedora 20
 
-    yum install sara-1.0-12.x86_64.rpm
+    yum install sara-1.0-13.x86_64.rpm
 
     On OpenSUSE 13.1
 
-    zypper install ./sara-1.0-12.el6.x86_64.rpm
+    zypper install sara-1.0-13.el6.x86_64.rpm
 
 To get list of available options and usage syntax, run:
 
