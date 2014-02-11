@@ -1,5 +1,8 @@
-sara
+**SARA - Linux SAR Analyzer**
 ====
+
+SARA is the tool that helps visualizing SAR (System Activity Reporter) logs.
+This tool creates PDF/PNG report based on data contained in sa (binary) file.
 
 Only 64-bit builds
 
@@ -12,10 +15,6 @@ Only 64-bit builds
 
 [GPG KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY)
 
-**SARA - Linux SAR Analyzer**
-
-SARA is the tool that helps visualizing SAR (System Activity Reporter) logs.
-This tool creates PDF/PNG report based on data contained in sa (binary) file.
 
 [Sample report 1](https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/srv3.unixos.org-sa26-REPORT.pdf)
 
