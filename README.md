@@ -3,9 +3,11 @@ sara
 
 Only 64-bit builds
 
-[RHEL6/CentOS6/OpenSUSE13.1 download](https://github.com/GregWojcieszczuk/sara/blob/master/rpms/rhel6/rpms/rhel6/sara-1.0-13.el6.x86_64.rpm?raw=true)
+[RHEL6/CentOS6 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/rhel6/sara-1.0-13.el6.x86_64.rpm)
 
-[Fedora 20 download](https://github.com/GregWojcieszczuk/sara/blob/master/rpms/f20/sara-1.0-13.x86_64.rpm?raw=true)
+[OpenSUSE 13.1 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/opensuse13.1/sara-1.0-13.el6.x86_64.rpm)
+
+[Fedora 20 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/f20/sara-1.0-13.x86_64.rpm)
 
 
 [GPG KEY](https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY)
