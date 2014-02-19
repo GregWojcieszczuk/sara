@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Sara by GregWojcieszczuk</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Sara</h1>
+        <h2>SARA - Linux SAR Analyzer</h2>
+        <a href="https://github.com/GregWojcieszczuk/sara" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="sara---linux-sar-analyzer" class="anchor" href="#sara---linux-sar-analyzer"><span class="octicon octicon-link"></span></a><strong>SARA - Linux SAR Analyzer</strong>
+</h1>
+
+<p>SARA is the tool that helps visualizing SAR (System Activity Reporter) logs.
+This tool creates PDF/PNG report based on data contained in sa (binary) file.</p>
+
+<p><strong>Downloads</strong>(Only 64-bit builds)</p>
+
+<p><a href="https://github.com/GregWojcieszczuk/sara/raw/master/rpms/rhel6/sara-1.0-13.el6.x86_64.rpm">RHEL6/CentOS6 download</a></p>
+
+<p><a href="https://github.com/GregWojcieszczuk/sara/raw/master/rpms/opensuse13.1/sara-1.0-13.el6.x86_64.rpm">OpenSUSE 13.1 download</a></p>
+
+<p><a href="https://github.com/GregWojcieszczuk/sara/raw/master/rpms/f20/sara-1.0-13.x86_64.rpm">Fedora 20 download</a></p>
+
+<p><strong>GPG KEY</strong></p>
+
+<p><a href="https://github.com/GregWojcieszczuk/sara/raw/master/GREGW-GPG-KEY">GPG KEY</a></p>
+
+<p><strong>SAMPLES</strong></p>
+
+<p><a href="https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/srv3.unixos.org-sa26-REPORT.pdf">Sample report 1</a></p>
+
+<p><a href="https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/linux-y2xn-sa10-REPORT.pdf">Sample report 2</a></p>
+
+<p><a href="https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/buildhost1.linuxlab.local-sadc-9.0.6-data.dat-REPORT.pdf">Sample report 3</a></p>
+
+<p><a href="https://github.com/GregWojcieszczuk/sara/raw/master/sample-reports/buildhost1.linuxlab.local-sa10-REPORT.pdf">Sample report 4</a></p>
+
+<p>Notice that sara can be installed on any supported OS. 
+It can graph/analyze sysstat performance data generated on any Linux distro that utilizes systat 9.x or higher.</p>
+
+<p><strong>Features</strong></p>
+
+<ul>
+<li>Creating PDF report (multiple-page single doc); with bookmarks for each section</li>
+<li>Creating report for specified period of time (within single day)</li>
+<li>Creating PNG files covering individual data sections (e.g. disk activity, network activity, etc)</li>
+<li>100% non-interactive</li>
+<li>Customizable</li>
+<li>Supports all SAR 9.0.x tests</li>
+<li>Compatible with sar 9.0.x, 10.0.x 10.2.x data files (sa1/sadc); only stable sysstat revisions</li>
+<li>
+<p>Relies on:</p>
+
+<p>a) sysstat, <a href="http://sebastien.godard.pagesperso-orange.fr">http://sebastien.godard.pagesperso-orange.fr</a></p>
+
+<p>b) gnuplot, <a href="http://www.gnuplot.info">http://www.gnuplot.info</a></p>
+
+<p>c) imagemagick, <a href="http://www.imagemagick.org">http://www.imagemagick.org</a></p>
+</li>
+<li><p>Does not require sar, gnuplot and imagemagick to be installed</p></li>
+</ul><p><strong>Known issues</strong></p>
+
+<p>Adobe PDF reader (windows version only) doesn't display colors. All graphs are in grayscale.</p>
+
+<p>All other PDF readers (like Foxit PDF reader), evince, chrome built-in PDF reader, etc don't exhibit this problem.</p>
+
+<p><strong>Installation</strong></p>
+
+<pre><code>On CentOS 6.x/RHEL 6.x
+
+yum install sara-1.0-13.el6.x86_64.rpm
+
+On Fedora 20
+
+yum install sara-1.0-13.x86_64.rpm
+
+On OpenSUSE 13.1
+
+zypper install sara-1.0-13.el6.x86_64.rpm
+</code></pre>
+
+<p>To get list of available options and usage syntax, run:</p>
+
+<pre><code>/opt/sara/sara
+SYNTAX:
+
+/opt/sara/sara [options]
+
+Options:
+-s &lt;path&gt;
+     Specify path to binary SA file (mandatory)
+
+-o &lt;path&gt;
+     Specify path to output directory (mandatory)
+
+-t HH:MM:SS-HH:MM:SS
+     Define time range for report (optional). 
+     If not defined, display report for all available data in SA file.
+
+-c &lt;path&gt;
+     Path to config file (optional). Default location: /opt/sara/etc/reports.pref
+
+-r ipdf|pdf|png
+    Specify type of output report.
+    Default: pdf
+
+    ipdf - generate individual (for every sar test) pdf files in directory defined with "-o" option
+    pdf  - generate single pdf file with all data
+    png  - generate individual PNG files for every sar test
+
+-h|-?
+     Display this help
+
+EXAMPLES:
+
+/opt/sara/sara -s /var/log/sa/sa06 -t 00:00:00-12:28:03 -o /tmp/sartest
+
+/opt/sara/sara -s /var/log/sa/sa06 -o /tmp/sartest
+</code></pre>
+
+<p>To get very granular sar performance data from your system you can modify default crontab job:</p>
+
+<pre><code> */1 * * * * root /usr/lib64/sa/sa1 -S XALL 5 12
+</code></pre>
+
+<p>If you plan to use that tool, you can probably comment out this line:</p>
+
+<pre><code> #53 23 * * * root /usr/lib64/sa/sa2 -A
+</code></pre>
+
+<p>Sysstat data with 5 sec sampling interval may create ~350-400MiB sa files (/var/log/sa).</p>
+
+<p>In order to avoid storing lots of very large files, you can add the following crontab job:</p>
+
+<pre><code> 42 00 * * * root /var/log/sa/processSA
+</code></pre>
+
+<p>Content of processSA script</p>
+
+<pre><code>#!/bin/bash
+
+dirprefix="/var/log/sa"
+Oldsafile="$dirprefix/sa$(date +%d -d '1 day ago')"
+Newsafile="$dirprefix/sa-$(date +%Y-%m-%d -d '1 day ago')"
+mv $Oldsafile $Newsafile
+gzip "$Newsafile"
+</code></pre>
+
+<p>Do not forget to make processSA executable:</p>
+
+<pre><code>chmod 755 /var/log/sa/processSA
+</code></pre>
+
+<p><strong>TODO LIST</strong></p>
+
+<pre><code>* Verify if that program works correctly on: RHEL7 beta, SLES, SLED
+* Build DEB package for Ubuntu (13.10, 12.0.4 LTS) and latest Debian
+</code></pre>
+
+<p>Report bugs to: saraproject '''at''' unixos.org</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/GregWojcieszczuk/sara/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/GregWojcieszczuk/sara/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/GregWojcieszczuk/sara"></a> is maintained by <a href="https://github.com/GregWojcieszczuk">GregWojcieszczuk</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-25774608-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
