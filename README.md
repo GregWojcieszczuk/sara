@@ -6,11 +6,11 @@ This tool creates PDF/PNG report based on data contained in sa (binary) file.
 
 **Downloads**(Only 64-bit builds)
 
-[RHEL6/CentOS6 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/rhel6/sara-1.0-13.el6.x86_64.rpm)
+[RHEL6/CentOS6 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/rhel6/sara-1.0-14.el6.x86_64.rpm)
 
-[OpenSUSE 13.1 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/opensuse13.1/sara-1.0-13.el6.x86_64.rpm)
+[OpenSUSE 13.1 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/opensuse13.1/sara-1.0-14.el6.x86_64.rpm)
 
-[Fedora 20 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/f20/sara-1.0-13.x86_64.rpm)
+[Fedora 20 download](https://github.com/GregWojcieszczuk/sara/raw/master/rpms/f20/sara-1.0-14.x86_64.rpm)
 
 **GPG KEY**
 
@@ -52,15 +52,15 @@ It can graph/analyze sysstat performance data generated on any Linux distro that
 
     On CentOS 6.x/RHEL 6.x
 
-    yum install sara-1.0-13.el6.x86_64.rpm
+    yum install sara-1.0-14.el6.x86_64.rpm
 
     On Fedora 20
 
-    yum install sara-1.0-13.x86_64.rpm
+    yum install sara-1.0-14.x86_64.rpm
 
     On OpenSUSE 13.1
 
-    zypper install sara-1.0-13.el6.x86_64.rpm
+    zypper install sara-1.0-14.el6.x86_64.rpm
 
 To get list of available options and usage syntax, run:
 
